@@ -177,27 +177,61 @@
     <section class="mt-32 px-20 py-24 gap-14 rounded-xl bg-gradient-to-l from-red-600 to-orange-400 flex flex-col lg:flex-row">
          
         <!--Description Section  -->
-        <div class="flex-1">
+        <div class=" flex-1 flex items-center">
             
-            <h3 class="text-5xl text font-extrabold text-[#F4F4F4]" #F4F4F4="">Meet Our Super Clients</h3>
+            <div>
+                <h3 class="text-5xl text font-extrabold text-[#F4F4F4]" #F4F4F4="">Meet Our Super Clients</h3>
             
             <p class="mt-5 text-[#F4F4F4] text-xl font-normal">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
    
             <button class="mt-7 btn bg-white text-[#FF8938]">Show All</button>
+            </div>
 
         </div>
-      
-        <div class="flex-1">
+       
+        <!--review container -->
+        <div class="relative flex-1 lg:left-28 ">
          
-            <!--review  -->
-            <div class="relative p-10 bg-white rounded-lg">
+            <!-- Next review  -->
+            <div class="relative opacity-40 mb-16 p-10 bg-white rounded-lg lg:w-[400px] h-52">
                 
-                <img class="absolute -top-5 -left-5" src="./images/client.png" alt="">
+                <img class="absolute -top-5 -left-5 border-4 border-white rounded-full" src="./images/client.png" alt="">
                 <p class="text-xs font-normal">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
 
                 <h5 class="text-xl font-bold text-[black]">Ilham Yuda</h5>
                 <p class="font-medium text-xs">BusinessMan</p>
-                <img class="pl-[90%]" src="./images/circles.png" alt="">
+                <div class="flex justify-end">
+                    <img src="./images/circles.png" alt="">
+                </div>
+                
+            </div>
+
+            <!-- current review  -->
+            <div class="absolute z-10 lg:-left-40 -mt-36 p-10 bg-white rounded-lg lg:w-[400px] h-52 -left-10 ">
+                
+                <img class="absolute -top-5 -left-5 border-4 border-white rounded-full" src="./images/client.png" alt="">
+                <p class="text-xs font-normal">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+
+                <h5 class="text-xl font-bold text-[black]">Ilham Yuda</h5>
+                <p class="font-medium text-xs">BusinessMan</p>
+                <div class="flex justify-end">
+                    <img src="./images/circles.png" alt="">
+                </div>
+                
+            </div>
+           
+            <!-- Previous review -->
+            <div class="relative opacity-40 p-10 bg-white rounded-lg lg:w-[400px] h-52">
+                
+                <img class="absolute -top-5 -left-5 border-4 border-white rounded-full" src="./images/client.png" alt="">
+                <p class="text-xs font-normal">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+
+                <h5 class="text-xl font-bold text-[black]">Ilham Yuda</h5>
+                <p class="font-medium text-xs">BusinessMan</p>
+                <div class="flex justify-end">
+                    <img src="./images/circles.png" alt="">
+                </div>
+                
             </div>
 
         </div>
